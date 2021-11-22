@@ -1,7 +1,6 @@
 # Ignore results from test and build directories
 ignoreFiles = """
-build/
-src/test/
+**/build/**
+**/src/test/**
 """
 
-ignoreRules = ["MissingOverride"]
